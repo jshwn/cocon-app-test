@@ -1,5 +1,9 @@
 # cocon-app-test
 
+1. GitHub의 본인 계정에 해당 repository fork후 코드를 올립니다.
+2. GitHub cocon-backend-coding-test repository의 [Settings] - [Manage access]에서 Collaborator로 [mint-seoul](http://github.com/mint-seoul) 계정을 추가합니다.
+3. cocon@blacktangerine.kr 이메일로 GitHub cocon-app-test 링크를 제출합니다.
+
 ## Prerequisites
 
 - Flutter 2.10.5
