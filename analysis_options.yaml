@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude: [build/**]
+  language:
+    strict-raw-types: true
+  strong-mode:
+    implicit-casts: false
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
+    sort_pub_dependencies: false
+    avoid_setters_without_getters: false
