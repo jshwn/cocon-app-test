@@ -1,5 +1,9 @@
 # cocon-app-test
 
+## Prerequisites
+
+- Flutter 2.10.5
+
 ### Lint
 
 - [lefthook](https://github.com/evilmartians/lefthook)
