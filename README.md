@@ -10,8 +10,6 @@
 
 ### Design
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1VXFX2ehPKRawc56eIVwIs%2FCOCON-APP%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-
 [링크](https://www.figma.com/file/1VXFX2ehPKRawc56eIVwIs/COCON-APP?node-id=0%3A1)
 
 ## API
@@ -19,10 +17,11 @@
 ### Request
 
 ```http
-// 아우터
+<!-- 아우터 -->
 GET https://cf-api-c.brandi.me/v1/web/categories/218/products?offset=0&limit=100&type=all&order=popular
 Authorization: 3b17176f2eb5fdffb9bafdcc3e4bc192b013813caddccd0aad20c23ed272f076_1423639497
 
+<!-- 상의 -->
 GET https://cf-api-c.brandi.me/v1/web/categories/373/products?offset=0&limit=100&type=all&order=popular
 Authorization: 3b17176f2eb5fdffb9bafdcc3e4bc192b013813caddccd0aad20c23ed272f076_1423639497
 ```
